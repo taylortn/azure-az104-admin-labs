@@ -41,3 +41,9 @@ This project demonstrates implementing least privilege access by assigning read-
 ## Result
 
 The user can view resources but cannot create, modify, or delete them.
+
+## Verification
+
+Role assignment successfully configured in Azure Access Control (IAM).
+
+![RBAC Role Assignment](screenshots/rbac-role-assignment.png)
