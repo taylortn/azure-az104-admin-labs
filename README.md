@@ -42,10 +42,11 @@ These labs were created to strengthen real-world Azure administration skills whi
 - Assign Azure RBAC roles
 - Implement least-privilege access
 
-**Project 4 — Monitoring and Logging**
-- Configure Azure Monitor
-- Create alert rules
-- Track resource metrics
+**Project 04 — Azure Monitoring & Alerts**
+- Configured Azure Monitor to track resource activity
+- Created an alert rule based on monitored metrics
+- Configured an Action Group for email notification
+- Demonstrated observability and proactive monitoring in Azure
 
 ---
 
