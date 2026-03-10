@@ -16,20 +16,28 @@ Azure Subscription
 ├─ Storage Account
 │
 └─ RBAC
-     └─ Reader role assigned to user
+     └─ Reader role assignment configured
 
 ## Steps Performed
 
-1. Created a new Microsoft Entra ID user.
-2. Navigated to the resource group.
-3. Opened Access Control (IAM).
-4. Assigned the Reader role to the test user.
-5. Verified role assignment in IAM.
+1. Navigated to the Azure resource group used for the administration lab environment.
+2. Opened **Access Control (IAM)** to manage role assignments.
+3. Reviewed available Azure built-in roles.
+4. Assigned the **Reader** role at the resource group scope.
+5. Verified the role assignment within the IAM role assignments panel.
+6. Demonstrated Azure RBAC permission management and least-privilege access principles.
 
 ## Security Concept
 
 This project demonstrates implementing least privilege access by assigning read-only permissions to a user at the resource group scope.
 
+## Azure Services Used
+
+- Microsoft Azure
+- Azure Resource Groups
+- Azure Role-Based Access Control (RBAC)
+- Access Control (IAM)
+  
 ## Result
 
 The user can view resources but cannot create, modify, or delete them.
