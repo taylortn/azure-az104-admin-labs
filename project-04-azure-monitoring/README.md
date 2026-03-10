@@ -1,4 +1,5 @@
 # Project 04 — Azure Monitoring & Alerts
+Configured Azure Monitor alerts and Action Groups to demonstrate proactive monitoring and resource observability in Azure.
 
 ## Overview
 
@@ -60,3 +61,7 @@ Azure Monitor was successfully configured to track the selected resource and tri
 ## Screenshots
 
 See the `screenshots` folder for configuration proof and monitoring setup images.
+
+## Interview Talking Point
+
+In this lab, I configured Azure Monitor to observe a cloud resource and created an alert rule tied to an Action Group for notification. This helped me understand how Azure administrators monitor resource health and build proactive operational responses.
