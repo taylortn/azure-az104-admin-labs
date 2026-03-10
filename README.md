@@ -1,17 +1,13 @@
 # azure-az104-admin-labs
 Hands-on Microsoft Azure Administrator (AZ-104) lab projects demonstrating practical experience with virtual machines, networking, identity, storage, security, and monitoring in Azure.
 
-# Azure Administrator Lab Projects (AZ-104)
+# Azure AZ-104 Administration Labs
 
-This repository contains hands-on Microsoft Azure labs designed to build practical Azure Administrator skills aligned with the AZ-104 certification.
+This repository contains hands-on labs demonstrating core Microsoft Azure Administrator (AZ-104) skills. The projects simulate real-world cloud administration tasks including infrastructure deployment, identity management, networking, and monitoring.
 
-The goal of these projects is to demonstrate real-world Azure administration tasks, including infrastructure deployment, networking, identity management, storage configuration, and monitoring.
+The goal of this repository is to build practical experience with Azure services while documenting the configuration steps, architecture, and security concepts used in each lab.
 
----
-
-## Project 1 – Secure Linux Virtual Machine Deployment
-
-Skills demonstrated:
+## Skills Demonstrated
 
 - Azure Resource Groups
 - Virtual Networks (VNet)
@@ -19,22 +15,38 @@ Skills demonstrated:
 - Network Security Groups (NSG)
 - Azure Virtual Machines
 - SSH access to Linux servers
-- Installing and configuring NGINX web server
+- Installing and configuring NGINX web servers
+- Azure Storage Accounts and Blob Containers
+- Azure Role-Based Access Control (RBAC)
+- Identity management using Microsoft Entra ID
+- Azure monitoring and logging
 
-Architecture Overview
+## Purpose
 
-Resource Group  
-└── Virtual Network  
-  └── Subnet  
-└── Network Security Group  
-└── Linux Virtual Machine  
+These labs were created to strengthen real-world Azure administration skills while preparing for the **Microsoft Azure Administrator (AZ-104)** certification. Each project demonstrates practical implementation of Azure infrastructure and security best practices.
 
-This project demonstrates how to deploy and secure a Linux virtual machine within an Azure virtual network and configure network security rules to control inbound traffic.
+## Projects
+
+**Project 1 — Azure Virtual Machine Deployment**
+- Deploy a Linux virtual machine
+- Configure networking and security groups
+- Install and configure an NGINX web server
+
+**Project 2 — Azure Storage and Backup**
+- Deploy a storage account
+- Create blob containers
+- Upload and manage cloud files
+
+**Project 3 — Identity and Role-Based Access Control**
+- Create Microsoft Entra ID users
+- Assign Azure RBAC roles
+- Implement least-privilege access
+
+**Project 4 — Monitoring and Logging**
+- Configure Azure Monitor
+- Create alert rules
+- Track resource metrics
 
 ---
 
-More projects coming soon:
-
-Project 2 – Azure Storage and Backup  
-Project 3 – Identity and Role-Based Access Control  
-Project 4 – Monitoring with Azure Monitor and Log Analytics
+More labs will be added as additional Azure administration skills are developed.
