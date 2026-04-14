@@ -1,102 +1,68 @@
-# Azure AZ-104 Administrator Labs
+# ☁️ Azure Administrator (AZ-104) Labs
 
-This repository contains hands-on labs demonstrating core Azure Administrator (AZ-104) skills, including infrastructure deployment, storage configuration, identity management, and monitoring.
-
-These projects were built to gain practical experience with Microsoft Azure cloud administration.
+This repository contains hands-on labs focused on developing practical skills required for Azure administration.
 
 ---
 
-# Skills Demonstrated
+## 🚀 Project Overview
 
-- Azure Resource Groups
-- Virtual Networks (VNet)
-- Azure Storage Accounts
-- Role-Based Access Control (RBAC)
-- Azure Monitor
-- Alert Rules & Action Groups
-- Cloud Governance (Tagging)
-- Infrastructure organization
+These labs are designed to simulate real-world Azure administration tasks, including managing users, deploying resources, configuring networking, and monitoring cloud environments.
+
+This aligns with the core responsibilities of an Azure Administrator.
 
 ---
 
-# Lab Projects
+## 🧠 Key Areas Covered
 
-## Project 01 — Azure Networking and Infrastructure
-Deployed a virtual network and supporting infrastructure resources within Azure.
-
-Skills:
-- Resource groups
-- Virtual networks
-- Azure architecture design
-
-Location: [project1-linux-vm] (project1-linux-vm)
+- Identity and Access Management (Microsoft Entra ID)  
+- Azure Virtual Machines and Compute Resources  
+- Storage Accounts and Data Management  
+- Virtual Networking and Connectivity  
+- Monitoring and Resource Management  
 
 ---
 
-## Project 02 — Azure Storage and Backup
-Configured Azure Storage services and explored storage management concepts.
+## 🛠️ Technologies Used
 
-Skills:
-- Storage Accounts
-- Blob Storage
-- Storage configuration
-
-Location:]project-02-azure-storage] (project-02-azure-storage)
+- Microsoft Azure  
+- Azure Portal  
+- Azure CLI / PowerShell  
+- Virtual Machines  
+- Azure Networking Services  
 
 ---
 
-## Project 03 — Azure Role-Based Access Control (RBAC)
-Configured RBAC permissions for Azure resources using Microsoft Entra ID.
+## 🎯 What This Project Demonstrates
 
-Skills:
-- User identity management
-- RBAC roles
-- Least privilege access model
-- Resource-level permission assignment
-
-Location: [project-03-azure-rbac] (project-03-azure-rbac)
+- Managing cloud infrastructure in Azure  
+- Deploying and configuring virtual machines  
+- Implementing identity and access controls  
+- Monitoring and maintaining cloud resources  
+- Understanding enterprise cloud environments  
 
 ---
 
-## Project 04 — Azure Monitoring & Alerts
-Configured Azure Monitor to track resource activity and trigger notifications when conditions are met.
+## 🔧 Example Labs
 
-Skills:
-- Azure Monitor
-- Metric-based alert rules
-- Action Groups
-- Email notifications
-- Cloud observability
-
-Location:[project-04-azure-monitioring] (project-04-azure-monitioring)
+- Creating and managing users and roles  
+- Deploying and configuring virtual machines  
+- Setting up virtual networks and subnets  
+- Configuring storage accounts and containers  
+- Monitoring system performance and alerts  
 
 ---
 
-# Architecture Overview
+## 🔮 Future Improvements
 
-Azure Subscription  
-│  
-├── Resource Group  
-│   ├── Virtual Network  
-│   ├── Storage Account  
-│   ├── RBAC Configuration  
-│   └── Azure Monitor Alerts  
+- Automate deployments using ARM templates or Terraform  
+- Integrate CI/CD pipelines for cloud deployment  
+- Expand into hybrid cloud (Azure + on-prem)  
+- Add security and compliance configurations  
 
 ---
 
-# Purpose of This Repository
+## 💡 Why This Matters
 
-This repository demonstrates hands-on Azure administration experience through lab environments designed to simulate real-world cloud infrastructure tasks.
+Azure Administrators are responsible for managing cloud infrastructure and ensuring systems are secure, scalable, and reliable.
 
-These labs focus on practical Azure operations such as resource organization, security configuration, monitoring, and alerting.
-
----
-
-# Future Labs
-
-Planned additions:
-
-- Azure Network Security Groups
-- Azure Hub and Spoke Networking
-- Azure Backup and Recovery
-- Azure CLI Automation
+This project demonstrates hands-on experience with core Azure services used in enterprise environments.
